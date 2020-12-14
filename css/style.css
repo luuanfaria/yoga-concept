@@ -1530,6 +1530,11 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 
+.btn-header {
+  padding: 0.4em 1.2em!important;
+  color: white!important;
+}
+
 .btn-success {
   background: #5cb85c;
   color: #fff;
@@ -1661,6 +1666,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .mb30 {
   margin-bottom: 30px !important;
+}
+
+.hero-text {
+  font-size: 24px;
+  color: white;
+  line-height: 1.344;
+  font-weight: 600;
 }
 
 .row-pb-md {
