@@ -371,6 +371,10 @@ img {
   height: auto;
 }
 
+.img-shadow {
+  box-shadow: 0px 8px 13px -9px rgba(0, 0, 0, 0.75);  
+}
+
 .img-rounded {
   border-radius: 6px;
 }
