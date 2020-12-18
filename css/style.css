@@ -107,9 +107,22 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.fh5co-nav #fh5co-logo img {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-nav #fh5co-logo {
     margin-bottom: 0;
+  }
+  .fh5co-nav #fh5co-logo a {
+    display: none;
+  }
+  .fh5co-nav #fh5co-logo img {
+    display: block;
+    width: 220px;
+    height: 220px;
   }
 }
 .fh5co-nav #fh5co-logo a > span {
