@@ -95,9 +95,17 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
+.display-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-nav {
     padding: 25px 0;
+  }
+  .display-mobile {
+    display: block;
   }
 }
 .fh5co-nav #fh5co-logo {
@@ -108,21 +116,12 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
 }
 
-.fh5co-nav #fh5co-logo img {
-  display: none;
-}
-
 @media screen and (max-width: 768px) {
   .fh5co-nav #fh5co-logo {
     margin-bottom: 0;
   }
   .fh5co-nav #fh5co-logo a {
     display: none;
-  }
-  .fh5co-nav #fh5co-logo img {
-    display: block;
-    width: 220px;
-    height: 220px;
   }
 }
 .fh5co-nav #fh5co-logo a > span {
@@ -547,6 +546,10 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
     font-size: 40px;
+    text-align: center;
+  }
+  #fh5co-header .display-tc p {
+    text-align: center;
   }
 }
 #fh5co-header .display-tc h2,
