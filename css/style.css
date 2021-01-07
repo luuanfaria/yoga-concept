@@ -566,6 +566,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .btn,
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
+  font-family: 'PT Sans', sans-serif;
   padding: 15px 30px;
   background: #050711;
   color: #fff;
@@ -640,13 +641,22 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-services .about-me_text {
-  font-weight: 500;
-  font-style: italic;
   margin-top: 3%;
   box-sizing: border-box;
-  padding: 0 5%;
-  line-height: 1.8;
+  line-height: 40px;
+  padding: 30px;
+  float: left;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 18px;
+  letter-spacing: 1.6px;
+  font-weight: 500;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-services,
   #fh5co-started,
@@ -1763,5 +1773,4 @@ h1, h2, h3, h4, h5, h6, figure {
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
 }
-
 /*# sourceMappingURL=style.css.map */
