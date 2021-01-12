@@ -638,10 +638,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-services .about-me_text {
-  margin-top: 3%;
   box-sizing: border-box;
   line-height: 40px;
-  padding: 30px;
+  padding:  0 10px 10px;
   float: left;
   width: 100%;
   position: relative;
