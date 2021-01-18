@@ -96,6 +96,12 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 
+.fh5co-nav img {
+  width: 38px;
+  height: 38px;
+  border-radius: 18px;
+}
+
 .display-mobile {
   display: none;
 }
@@ -311,6 +317,8 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   background: rgb(137, 209, 255);
+  background-image: url(../images/buddha.png);
+  background-position: 25% 45%;
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -320,6 +328,11 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-cover {
     height: 600px;
   }
+
+  .fh5co-cover .overlay {
+    background-image: none;
+  }
+
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
@@ -548,6 +561,11 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 40px;
     text-align: center;
   }
+
+  .fh5co-cover .display-tc h1 {
+    color: #000!important;
+  }
+
   #fh5co-header .display-tc p {
     text-align: center;
   }
@@ -625,13 +643,13 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-team,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 7em 0 0 0;
   clear: both;
 }
 
 #fh5co-services .message {
   font-size: 22px;
-  color: #050711;
+  color: #828282;
   text-align: center;
   line-height: 40px;
   font-weight: 500;
@@ -640,7 +658,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-services .about-me_text {
   box-sizing: border-box;
   line-height: 40px;
-  padding:  0 10px 10px;
+  padding:  0px 10px 10px;
   float: left;
   width: 100%;
   position: relative;
