@@ -318,7 +318,9 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   background: rgb(137, 209, 255);
   background-image: url(../images/buddha.png);
-  background-position: 25% 45%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -682,6 +684,13 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-contact,
   #fh5co-footer {
     padding: 3em 0;
+  }
+  .pt40 {
+    padding-top: 40px;
+  }
+
+  #fh5co-services .about-me_text {
+    padding-top: 40px;
   }
 }
 
