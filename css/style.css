@@ -585,8 +585,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover .display-tc .btn {
   font-family: 'PT Sans', sans-serif;
   padding: 15px 30px;
-  background: #050711;
-  color: #fff;
+  background: #FFF;
+  color: #1d2447;
   border: none !important;
   font-size: 18px;
   text-transform: uppercase;
@@ -594,6 +594,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
 }
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
